@@ -5,7 +5,7 @@
 
 const Denon3808 = require('./lib/denon3808.js');
 
-var denon = new Denon3808('192.168.1.8');
+var denon = new Denon3808('192.168.7.108');
 
 function errorHandler(error)
 {
